@@ -1,10 +1,14 @@
 {
     "name": "shinv/test_unitaire",
-    "description": "tp-efrei",
     "type": "project",
+    "require-dev": {
+        "symfony/phpunit-bridge": "^7.2",
+        "spatie/phpunit-watcher": "^1.23",
+        "phpunit/phpunit": "^9.6"
+    },
     "autoload": {
         "psr-4": {
-            "Shinv\\TestUnitaire\\": "src/"
+            "Shinv\\TestUnitaire\\": ""
         }
     },
     "authors": [
@@ -12,8 +16,5 @@
             "name": "Valeriya",
             "email": "shinvaleriya1808@gmail.com"
         }
-    ],
-    "require": {
-    "phpunit/phpunit": "^9.5"
-}
+    ]
 }
