@@ -1,0 +1,19 @@
+{
+    "name": "shinv/test_unitaire",
+    "description": "tp-efrei",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Shinv\\TestUnitaire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valeriya",
+            "email": "shinvaleriya1808@gmail.com"
+        }
+    ],
+    "require": {
+    "phpunit/phpunit": "^9.5"
+}
+}
